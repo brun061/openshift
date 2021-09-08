@@ -1,5 +1,5 @@
 <?php
-$ip = $_SERVER['REMOTE_ADDR'];
-echo "$ip"
+$env_test = $_ENV['ENV_TEST'];
+echo "$env_test"
 ?>
 
